@@ -63,8 +63,9 @@ class Contact extends Component {
 
                 <Link to={`contact/edit/${id}`}>
                   <span
-                    className="badge badge-pill badge-primary badge-sm m-3"
-                    style={{ cursor: "pointer", float: "right" }}
+                    className="badge badge-pill badge-sm m-3"
+                    style={{ cursor: "pointer", float: "right", backgroundColor: "#5DA0B5",
+                      color: "white", }}
                   >
                     edit
                   </span>
